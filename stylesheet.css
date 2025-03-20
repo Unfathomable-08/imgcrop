@@ -70,3 +70,33 @@
     height: 32px;
     margin-top: 25px;
 }
+
+.canvas-container {
+    width: 100vw;
+    padding: 0 25px;
+    display: grid;
+    gap: 5px; 
+    justify-content: center;
+    padding: 10px;
+}
+
+.canvas-container canvas {
+	width: 100%;
+	height: auto;
+}
+
+.download {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #ffffff;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.download:hover {
+    background: #aaa;
+}
